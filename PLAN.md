@@ -10,6 +10,9 @@ Status: planning only. No code has been written yet.
 | Rendering | Three.js (3D) |
 | Camera | Third-person, camera behind the player |
 | Opponents | AI bots **and** online multiplayer |
+| Players per match | 20 (empty spots are filled with AI bots) |
+| Art style | Realistic-looking, but not a Fortnite copy, and kid-appropriate |
+| Hosting | Free hosting site, so friends can join from anywhere |
 | First-version mechanics | Time limit vote, gun upgrades through kills, gun crafting, turret dog, overtime duel, shrinking storm, loot, harvesting |
 | Not in first version | Building (walls, ramps, floors) |
 
@@ -119,13 +122,16 @@ Find these 4 parts around the map (in chests, in houses, or dropped by eliminate
 6. Results screen: placement, kills this match, new kill total, guns unlocked, trophies earned
 
 ### 9. AI bots
-- Fill the match up to a set player count (for example 20)
+- Fill the match up to 20 players
 - Behaviour states: **loot**, **wander**, **fight**, **flee storm**
 - Harder bots start with better guns
 - Difficulty setting changes their aim accuracy and reaction time
 
 ### 10. Online multiplayer
 - Node.js server using WebSockets
+- Hosted on a free hosting site (plan: **Render** free tier) so friends can join from anywhere with a link
+- The free tier goes to sleep when nobody is playing, so the first player may wait about a minute for it to wake up
+- Up to 20 players per room; bots fill the empty spots
 - The server is in charge of the game state (positions, health, kills, unlocks, storm, votes) so players can't cheat
 - Rooms: create or join a match with a code
 - Bots run on the server so they work the same in single-player and online matches
@@ -147,7 +153,16 @@ Find these 4 parts around the map (in chests, in houses, or dropped by eliminate
 - Houses contain chests
 - Bones and gun parts spread around the map
 - Some areas are darker so the glow pistol stands out
-- Built from simple shapes first, real models later
+- Built from simple shapes first, then swapped for realistic models
+
+## Art style
+- **Realistic-looking:** real-looking grass, trees, rocks, houses and lighting with shadows, a sky and a day/night feel
+- **Not a Fortnite copy:** our own characters, colors and style
+- **Kid-appropriate:**
+  - No blood or gore
+  - Eliminated players disappear in a flash of light and drop their loot
+  - Guns look like toys or sci-fi blasters (like the glow pistol and the Nerf AK-47), not real weapons
+- Free models and textures from sites that allow use in any project (for example Poly Haven, Kenney and Quaternius)
 
 ## Build order (milestones)
 1. **Setup:** project structure, Three.js scene, map with ground, trees and rocks
@@ -171,6 +186,4 @@ Find these 4 parts around the map (in chests, in houses, or dropped by eliminate
 - Emotes
 
 ## Open questions
-- How many players per match? (suggested: 20)
-- Blocky and simple art, or try to look like Fortnite?
-- Where should the multiplayer server be hosted?
+None right now. New questions will be added here as building starts.
