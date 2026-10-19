@@ -65,9 +65,10 @@ Find these 4 parts around the map (in chests, in houses, or dropped by eliminate
 - Gun 4 stays locked until gun 3 is crafted, even if you have enough kills
 
 #### Trophies
-- Every **50 total kills** earns a **trophy** (50, 100, 150, ...)
+- Every **25 total kills** earns a **trophy** (25, 50, 75, ...)
 - Trophies are saved and shown next to your name in the lobby, in the kill feed and on the results screen
 - The more trophies you have, the higher you rank on the leaderboard
+- Trophies will later be used to get **skins and backpacks** (to be designed later)
 
 #### Turret dog (gun 8)
 - A dog that follows you and fires its turret at nearby enemies on its own
@@ -87,9 +88,9 @@ Find these 4 parts around the map (in chests, in houses, or dropped by eliminate
 - When the timer runs out and more than one player is still alive, the match goes to **overtime**
 - The **two players with the most kills in this match** survive; everyone else is eliminated on the spot
 - If players are tied for a top-two spot, all the tied players go into the final countdown
-- The survivors fight during a **5-minute final countdown**
-- The last one standing wins
-- If more than one player is still alive when the countdown ends, the match is a **tie**
+- The survivors fight in the **final countdown**, which has no time limit: it lasts until only one player is left
+- The last one standing wins; there are no ties
+- During the final countdown the storm stays at a small circle, so the survivors can't hide from each other
 
 ### 5. Player movement
 - Walk, sprint, jump, crouch (WASD + Space + Shift + Ctrl)
@@ -139,7 +140,7 @@ Find these 4 parts around the map (in chests, in houses, or dropped by eliminate
 - Match timer and minimap with the storm circle
 - Players remaining, kill feed
 - Turret dog's name and health once unlocked
-- Final countdown timer during overtime
+- "Final countdown" banner during overtime
 
 ## Map
 - One small island with grass, trees, rocks, a few houses and some cars
@@ -166,11 +167,10 @@ Find these 4 parts around the map (in chests, in houses, or dropped by eliminate
 - Building (walls, ramps, floors, editing)
 - Battle bus and skydiving
 - Vehicles
-- Skins and emotes
+- Skins and backpacks, bought with trophies
+- Emotes
 
 ## Open questions
-- **Trophies:** do trophies do anything besides showing rank (for example a gold glow skin, a special badge, or matching you against players with similar trophies)?
-- **50-kill "upgrade":** at every 50 kills, is the trophy the reward, or should a gun upgrade (more damage, bigger magazine) come with it as well?
 - How many players per match? (suggested: 20)
 - Blocky and simple art, or try to look like Fortnite?
 - Where should the multiplayer server be hosted?
