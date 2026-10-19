@@ -2,6 +2,8 @@
 
 Status: planning only. No code has been written yet.
 
+Screen designs (Claude Design canvas): https://claude.ai/artifact/6rRrLP9ERLzuG9efn8PwyX
+
 ## Decisions so far
 
 | Topic | Choice |
